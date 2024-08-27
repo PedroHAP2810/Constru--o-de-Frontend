@@ -1,0 +1,34 @@
+body {
+    padding-bottom: 500pxs;
+}
+
+h2 {
+    font-size: 22px;
+    color: blue;
+}
+
+h3 {
+    color: red;
+}
+
+/* Selecionando classe*/
+.cor-laranja {
+    color: orange;
+}
+
+/*Selecionando Identificacao*/
+#ultimo-titulo{
+    color: black
+}
+   
+#minha-div{
+
+    background-image: url(https://th.bing.com/th/id/OIP.gK3QHuWQO-ZsdZtjXW5lPAHaEK?rs=1&pid=ImgDetMain);
+}
+
+#altura-largura{
+    height: 300px;
+    width: 200px;
+background-color: rgb(241, 5, 5)
+}
+
