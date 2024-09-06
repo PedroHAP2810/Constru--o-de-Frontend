@@ -4,7 +4,7 @@ export default function Filho(props) {
 
     return (
         <>
-            <h4>Filho {nomeFilho} </h4>
+            <p>Filho {nomeFilho} </p>
         </>
     )
 }

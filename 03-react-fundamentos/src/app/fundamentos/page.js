@@ -1,33 +1,29 @@
-import MeuComponente from './MeuComponente';
-import NumeroMaior from './NumeroMaior';
-import NumeroAleatorio from './NumeroAleatorio';
-import Cabecalho from './Cabecalho';
-import Familia from './Familia';
-import Filho from './Filho';
-
+import Cabecalho from "./Cabecalho";
+import Familia from "./Familia";
+import Filho from "./Filho";
+import ImagemAleatoria from "./ImagemAleatoria";
+import MeuComponente from "./MeuComponente";
+import NumeroAleatorio from "./NumeroAleatorio";
+import NumeroMaior from "./NumeroMaior";
 
 
 export default function Fundamentos() {
 
-    
-    return  (
-            <>
-                { /*Comentarios no JSX*/ }
+    return (
+        <>
+            {/* Comentários no JSX */}
 
-                <Cabecalho título="Fundamentos" descricao="Página de fundamentos de React" />
+            <Cabecalho titulo="Fundamentos" descricao="Página de fundamentos de React/Next" />
 
-                <h1>Pagina Fundamentos</h1>
-                <hr />
+            <MeuComponente />
+            <hr />
 
-                <MeuComponente />
-                <hr />
-
-                <NumeroMaior numA={2} numB={10} />
-                <NumeroMaior numA={100} numB={8} />
-                <NumeroMaior numA={20} numB={32} />
-                <NumeroMaior numA={2} numB={11} />
-                <NumeroMaior numA={1140} numB={10} />
-                <NumeroMaior numA={222} numB={666} />
+            <NumeroMaior numA={2} numB={10} />
+            <NumeroMaior numA={100} numB={8} />
+            <NumeroMaior numA={20} numB={32} />
+            <NumeroMaior numA={2} numB={11} />
+            <NumeroMaior numA={1140} numB={10} />
+            <NumeroMaior numA={222} numB={666} />
 
             <hr />
 
@@ -39,21 +35,33 @@ export default function Fundamentos() {
             <hr />
 
             <Familia nomeFamilia="Soares">
-                <Filho nome="Julia" sobreNome="Soares"/>
-                <Filho nome="João" sobreNome="Soares"/>
-                <Filho nome="Janilson" sobreNome="Soares"/>
-                <Filho nome="Josivan" sobreNome="Soares"/>
+                <Filho nome="Júlia" sobreNome="Soares" />
+                <Filho nome="João" sobreNome="Soares" />
+                <Filho nome="Maria" sobreNome="Soares" />
+                <Filho nome="Jorge" sobreNome="Soares" />
+            </Familia>
+            
+            <Familia nomeFamilia="Xororô">
+                <Filho nome="Sandy" sobreNome="Xororô"></Filho>
+                <Filho nome="Junior" sobreNome="Xororô"></Filho>
             </Familia>
 
-            <Familia nomeFamilia="Xooró">
-                <Filho nome="Sandy" sobreNome="Xororó"></Filho>
-                <Filho nome="Junior" sobreNome="Xororó"></Filho>
-            </Familia>
+            <hr />
+
+            <ImagemAleatoria />
+            <ImagemAleatoria />
+            <ImagemAleatoria />
+            <ImagemAleatoria />
+            <ImagemAleatoria />
+            <ImagemAleatoria />
+            <ImagemAleatoria />
+
+            
 
 
-            </>
-       )
-   
-       
+        </>
+    )
+
+
 
 }
